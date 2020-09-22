@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
     s.license               = { :type => 'Apache License 2.0', :file => 'LICENSE' }
     s.author                = { 'MKFactory' => 'mkfactory.app@gmail.com' }
 
-    s.source                = { :git => 'https://github.com/MKFactory/MKSDK.git', :tag => s.version }
+    s.source                = { :git => 'https://github.com/MKFactory/MKSDK.git', :tag => 'MKWatchKitFoundation-' + s.version.to_s }
 
     s.ios.deployment_target = '13.0'
     s.swift_version         = '5.0'
